@@ -35,10 +35,3 @@ the finding, not the row, so a re-crawl of an unchanged site fires nothing. To p
 - **New Article Draft:** generate a draft from a brief in Verand (uses one article of the allowance).
 
 Put the finding back afterwards so the site stays a stable baseline.
-
-## Review run in progress (2026-11)
-
-Two changes are live for the Zapier review Zaps, both marked `REVIEW RUN` in `build.py`:
-`/insights/required-minimum-distributions/` has lost its meta description, and a seventh article,
-`/insights/roth-conversions-before-rmds/`, has been added unlinked. Once both review Zaps have a
-successful run, restore the meta, delete the seventh article, rebuild and push.
