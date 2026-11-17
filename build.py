@@ -25,7 +25,7 @@ ARTICLES = [
     {
         "slug": "roth-conversion-basics",
         "title": "Roth Conversions: How They Work",
-        "meta": "What a Roth conversion is, how it's taxed, and the questions to answer before you convert.",
+        "meta": None,  # REVIEW RUN 2 (Zapier T004, 2026-11-17): restore "What a Roth conversion is, how it's taxed, and the questions to answer before you convert."
         "body": [
             "A Roth conversion moves money from a traditional IRA or 401(k) into a Roth IRA. The amount you convert counts as ordinary income in the year you convert it, so you pay the tax now in exchange for tax-free qualified withdrawals later.",
             "The decision usually turns on one comparison: your tax rate today against the rate you expect when you'd otherwise withdraw the money. If you expect a higher rate later, converting now can come out ahead. If you expect a lower one, it often doesn't.",
@@ -93,6 +93,20 @@ ARTICLES = [
             "Refilling the buckets is where the work is. Some people top up the near-term bucket on a schedule. Others refill it only after good years, letting it run down after bad ones.",
             "The approach doesn't change your overall investment mix by itself. It's a way of organizing the same portfolio so withdrawals feel deliberate rather than reactive.",
             "Your required distributions and any Roth conversions interact with the buckets, so it helps to plan all three together.",
+        ],
+    },
+    {
+        # REVIEW RUN 2 (Zapier T004, 2026-11-17): a seventh related article, unlinked, so the crawl
+        # raises a new internal-links opportunity. Delete this entry afterwards.
+        "slug": "roth-conversion-five-year-rules",
+        "title": "The Five-Year Rules for Roth Conversions",
+        "meta": "How the two Roth five-year clocks work, and how they apply to converted money and to earnings.",
+        "body": [
+            "Roth accounts have two separate five-year rules, and they're easy to mix up. One decides when earnings can come out tax-free. The other decides when converted money can come out without the early-withdrawal penalty.",
+            "The first clock starts with your first contribution to any Roth IRA. Once five years have passed and you're 59 and a half or older, withdrawals of earnings are tax-free. That clock runs once, for all your Roth IRAs together.",
+            "The second clock applies to each Roth conversion on its own. Every conversion starts a new five-year period for penalty-free access to the converted principal if you're under 59 and a half. Several conversions mean several clocks.",
+            "After 59 and a half, the conversion clocks stop mattering for the penalty, but the first clock still governs whether earnings are tax-free.",
+            "Because each conversion has its own clock, people who convert in slices over several years often keep a simple record of each year's amount and date.",
         ],
     },
 ]
