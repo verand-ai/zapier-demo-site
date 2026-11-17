@@ -49,7 +49,7 @@ ARTICLES = [
     {
         "slug": "required-minimum-distributions",
         "title": "Required Minimum Distributions, Explained",
-        "meta": "When required minimum distributions start, how they're calculated, and what happens if you miss one.",
+        "meta": None,  # REVIEW RUN (Zapier review Zaps, 2026-11): restore "When required minimum distributions start, how they're calculated, and what happens if you miss one."
         "body": [
             "Required minimum distributions, or RMDs, are the amounts you must withdraw each year from most tax-deferred retirement accounts once you reach the starting age set by law. The government lets the money grow tax-deferred for decades; RMDs are how it eventually gets taxed.",
             "The calculation is simple in outline. Take the account balance at the end of the previous year and divide it by a life-expectancy factor from the IRS tables. The result is the minimum you have to take out this year. You can always take more.",
@@ -93,6 +93,20 @@ ARTICLES = [
             "Refilling the buckets is where the work is. Some people top up the near-term bucket on a schedule. Others refill it only after good years, letting it run down after bad ones.",
             "The approach doesn't change your overall investment mix by itself. It's a way of organizing the same portfolio so withdrawals feel deliberate rather than reactive.",
             "Your required distributions and any Roth conversions interact with the buckets, so it helps to plan all three together.",
+        ],
+    },
+    {
+        # REVIEW RUN (Zapier review Zaps, 2026-11): a seventh related article, unlinked, so the crawl
+        # raises a new internal-links opportunity. Delete this entry afterwards.
+        "slug": "roth-conversions-before-rmds",
+        "title": "Roth Conversions in the Years Before RMDs Begin",
+        "meta": "Why the years between retirement and required minimum distributions are often the best time to convert to a Roth.",
+        "body": [
+            "Many retirees have a few years when taxable income is unusually low: wages have stopped, Social Security may not have started, and required minimum distributions haven't begun. Those years are often the best window for Roth conversions.",
+            "Converting then moves money out of the traditional IRA before RMDs start, which shrinks the balance the future RMDs are calculated on. Smaller RMDs mean less taxable income every year once they begin.",
+            "The conversions themselves are taxed as ordinary income, so the usual approach is to convert a measured amount each year, often enough to fill the current tax bracket and no more.",
+            "Watch the side effects of the extra income. A larger conversion can raise Medicare premiums a couple of years later and can affect how much of your Social Security is taxed once benefits start.",
+            "Once RMDs begin, a conversion can't count toward them: the required distribution has to come out first. That's why planning the conversion years before the first RMD matters.",
         ],
     },
 ]
